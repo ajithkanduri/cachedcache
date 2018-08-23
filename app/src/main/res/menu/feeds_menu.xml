@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mnuFree"
+        android:title="free apps" />
+    <item
+        android:id="@+id/mnuPaid"
+        android:title="paid apps" />
+    <item
+        android:id="@+id/mnuSongs"
+        android:title="songs" />
+    <group
+        android:id="@+id/mnugrpLimit"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/mnu10"
+            android:checked="true"
+            android:title="TOP 10" />
+        <item
+            android:id="@+id/mnu25"
+            android:title="TOP 25" />
+    </group>
+    <item
+        android:id="@+id/mnuRefresh"
+        android:title="Refresh" />
+</menu>
